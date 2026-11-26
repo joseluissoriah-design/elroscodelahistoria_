@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 210" preserveAspectRatio="xMidYMid slice">
+      <defs><path id="fr" d="M0 0Q20 -16 42 -2Q20 -6 0 0Z" fill="#4DBB6B"/></defs>
+      <rect width="440" height="210" fill="#12303F"/>
+      <path d="M60 14v8M60 74v8M26 48h-8M94 48h8M36 24l-5-5M84 72l5 5M84 24l5-5M36 72l-5 5" stroke="#F2C94C" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <circle cx="60" cy="48" r="22" fill="#F2C94C"/>
+      <g fill="#13303C" opacity=".92"><ellipse cx="165" cy="30" rx="24" ry="10"/><ellipse cx="148" cy="34" rx="15" ry="8"/><ellipse cx="182" cy="35" rx="16" ry="8"/></g>
+      <rect y="112" width="440" height="60" fill="#2A7DA3"/>
+      <g stroke="#13303C" stroke-width="2" stroke-linecap="round" fill="none" opacity=".55"><path d="M16 128q8-5 16 0t16 0"/><path d="M60 150q8-5 16 0t16 0"/><path d="M20 160q8-5 16 0t16 0"/><path d="M170 158q8-5 16 0t16 0"/></g>
+      <path d="M140 172C160 140 190 108 222 86S282 56 320 70S380 118 420 172Z" fill="#8A6540"/>
+      <path d="M222 86S282 56 320 70S380 118 420 172H300C290 130 250 104 222 86Z" fill="#B58650" opacity=".35"/>
+      <g fill="#B58650">
+        <rect x="232" y="58" width="92" height="18"/>
+        <rect x="228" y="40" width="18" height="38"/>
+        <rect x="310" y="44" width="18" height="34"/>
+        <rect x="266" y="34" width="26" height="26"/>
+      </g>
+      <g fill="#B58650">
+        <rect x="248" y="53" width="6" height="5"/><rect x="260" y="53" width="0" height="0"/><rect x="296" y="53" width="6" height="5"/><rect x="284" y="53" width="0" height="0"/>
+        <rect x="228" y="36" width="5" height="4"/><rect x="236" y="36" width="5" height="4"/><rect x="241" y="36" width="5" height="4"/>
+        <rect x="310" y="40" width="5" height="4"/><rect x="318" y="40" width="5" height="4"/><rect x="323" y="40" width="5" height="4"/>
+        <rect x="266" y="30" width="5" height="4"/><rect x="274" y="30" width="5" height="4"/><rect x="287" y="30" width="5" height="4"/>
+      </g>
+      <g fill="#8A6540"><rect x="235" y="50" width="4" height="8" rx="2"/><rect x="316" y="54" width="4" height="8" rx="2"/><rect x="275" y="42" width="5" height="9" rx="2.5"/><rect x="262" y="64" width="5" height="8" rx="2"/><rect x="290" y="64" width="5" height="8" rx="2"/></g>
+      <path d="M279 30V12" stroke="#E6F2F6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M279 12h17l-5 5l5 5h-17z" fill="#F08C69"/>
+      <path d="M96 150h44l-7 11h-30z" fill="#A67C55"/>
+      <path d="M118 149V116L137 149z" fill="#13303C" stroke="#244858" stroke-width="1"/>
+      <path d="M114 149V122L98 149z" fill="#13303C" stroke="#244858" stroke-width="1"/>
+      <path d="M118 149V112" stroke="#E6F2F6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M26 172Q32 148 27 124" stroke="#A67C55" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <g transform="translate(27 124)"><use href="#fr" transform="rotate(15)"/><use href="#fr" transform="rotate(-30)"/><use href="#fr" transform="rotate(-75)"/><use href="#fr" transform="rotate(-120)"/><use href="#fr" transform="rotate(-165)"/><use href="#fr" transform="rotate(170)"/></g>
+      <path d="M408 172Q402 150 408 128" stroke="#A67C55" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <g transform="translate(408 128)"><use href="#fr" transform="rotate(15)"/><use href="#fr" transform="rotate(-30)"/><use href="#fr" transform="rotate(-75)"/><use href="#fr" transform="rotate(-120)"/><use href="#fr" transform="rotate(-165)"/><use href="#fr" transform="rotate(170)"/></g>
+      <rect y="170" width="440" height="40" fill="#4F4636"/>
+      <path d="M0 180Q11 170 22 180T44 180T66 180T88 180T110 180T132 180T154 180T176 180T198 180T220 180T242 180T264 180T286 180T308 180T330 180T352 180T374 180T396 180T418 180T440 180" stroke="#F08C69" stroke-width="6" fill="none"/>
+      <path d="M0 192Q11 182 22 192T44 192T66 192T88 192T110 192T132 192T154 192T176 192T198 192T220 192T242 192T264 192T286 192T308 192T330 192T352 192T374 192T396 192T418 192T440 192" stroke="#E6F2F6" stroke-width="6" fill="none"/>
+      <path d="M0 204Q11 194 22 204T44 204T66 204T88 204T110 204T132 204T154 204T176 204T198 204T220 204T242 204T264 204T286 204T308 204T330 204T352 204T374 204T396 204T418 204T440 204" stroke="#F08C69" stroke-width="6" fill="none"/>
+    </svg>

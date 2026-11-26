@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>El Rosco de la Historia</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top banner">
+    <div class="bt">
+      <h1>El Rosco de la Historia</h1>
+      <p>Alicante · 4.º de Primaria</p>
+    </div>
+    <picture class="scene-pic">
+      <source srcset="img/cabecera-oscuro.svg" media="(prefers-color-scheme: dark)">
+      <img class="scene" src="img/cabecera-claro.svg" width="440" height="210" alt="Dibujo del castillo de Santa Bárbara sobre su monte, junto al mar de Alicante, con palmeras, un barco, el sol y el mosaico de olas de la Explanada">
+    </picture>
+  </header>
+
+  <main class="game">
+    <div class="rosco" id="rosco">
+      <ol class="nodes" id="nodes" aria-label="Rosco de letras"></ol>
+      <div class="hub" id="hub">
+        <span class="lab" id="hubLab">Tiempo</span>
+        <span class="time" id="hubTime">8:00</span>
+        <div class="tally">
+          <span><i class="d-ok"></i><b id="tOk">0</b> bien</span>
+          <span><i class="d-bad"></i><b id="tBad">0</b> <em class="lb" id="lblBad">mal</em></span>
+          <span><i class="d-left"></i><b id="tLeft">22</b> faltan</span>
+        </div>
+      </div>
+    </div>
+    <section class="panel" id="panel" aria-live="polite" aria-label="Zona de juego"></section>
+  </main>
+
+  <section class="learn" aria-labelledby="learnT">
+    <h2 id="learnT">Cuatro ideas para estudiar la historia</h2>
+    <ul class="cards">
+      <li class="card"><span class="ic s pic" aria-hidden="true">🏺</span><b>Descubre el pasado</b><p>Los arqueólogos excavan y estudian objetos antiguos para saber cómo vivía la gente.</p><span class="tag">Letras A · C · G · Y</span></li>
+      <li class="card"><span class="ic w pic" aria-hidden="true">📜</span><b>Las fuentes nos hablan</b><p>Documentos, edificios, objetos y recuerdos nos cuentan lo que pasó.</p><span class="tag">Letras F · V</span></li>
+      <li class="card"><span class="ic v pic" aria-hidden="true">⏳</span><b>Ordena el tiempo</b><p>Los siglos y las épocas ayudan a colocar cada hecho en una línea del tiempo.</p><span class="tag">Letras S · L · R · I</span></li>
+      <li class="card"><span class="ic o pic" aria-hidden="true">🏛️</span><b>Cuida el patrimonio</b><p>Museos, castillos, fiestas y tradiciones son una herencia que debemos cuidar.</p><span class="tag">Letras B · D · E · H · P · T · U</span></li>
+    </ul>
+  </section>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>
